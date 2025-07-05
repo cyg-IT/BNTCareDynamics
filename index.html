@@ -42,17 +42,9 @@
         }
 
         .logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
             font-size: 1.8rem;
             font-weight: bold;
             letter-spacing: 3px;
-        }
-
-        .logo img {
-            height: 40px;
-            width: auto;
         }
 
         nav ul {
@@ -75,10 +67,9 @@
         /* Hero Section */
         .hero {
             background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), 
-                        url('‎HomeHealth Photo.jpg');
+                        url('https://github.com/cyg-IT/BNTCareDynamics/commit/7afb15608f8b833331d669168d0271596a20c9a8#diff-0d4f3398f2cd614c5bc608397f9c74104f34104132ab811bcad6f456f005edd4');
             background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;
             color: white;
             text-align: center;
             padding: 6rem 0;
@@ -350,32 +341,14 @@
                 gap: 1rem;
             }
 
-            .logo {
-                font-size: 1.4rem;
-                letter-spacing: 2px;
-            }
-
-            .logo img {
-                height: 30px;
-            }
-
             nav ul {
                 flex-direction: column;
                 text-align: center;
                 gap: 1rem;
             }
 
-            .hero {
-                padding: 4rem 0;
-                min-height: 60vh;
-            }
-
             .hero-content h1 {
-                font-size: 2rem;
-            }
-
-            .hero-content p {
-                font-size: 1.1rem;
+                font-size: 2.5rem;
             }
 
             .about-content {
@@ -385,42 +358,6 @@
             .services-grid {
                 grid-template-columns: 1fr;
             }
-
-            .footer-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .container {
-                padding: 0 15px;
-            }
-
-            .hero-content h1 {
-                font-size: 1.8rem;
-            }
-
-            .hero-content p {
-                font-size: 1rem;
-            }
-
-            .logo {
-                font-size: 1.2rem;
-                letter-spacing: 1px;
-            }
-
-            .logo img {
-                height: 25px;
-            }
-
-            .service-card {
-                padding: 1.5rem;
-            }
-
-            .contact-form {
-                padding: 1.5rem;
-            }
         }
     </style>
 </head>
@@ -428,10 +365,7 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <div class="logo">
-                    <img src="https://github.com/cyg-IT/BNTCareDynamics/blob/main/BNT%20Logo.png" alt=>
-                    BNT CARE DYNAMICS
-                </div>
+                <div class="logo">BNT CARE DYNAMICS</div>
                 <nav>
                     <ul>
                         <li><a href="#home">Home</a></li>
@@ -529,7 +463,7 @@
                         <option value="">Select facility type</option>
                         <option value="home-health">Home Health (In-Home Care)</option>
                         <option value="senior-living">Senior Living Community</option>
-                        <option value="skilled-nursing">Skilled Nursing Facility</option>
+                        <option value="long-term-care">Long-term Care Facility</option>
                         <option value="assisted-living">Assisted Living Facility</option>
                         <option value="other">Other</option>
                     </select>
