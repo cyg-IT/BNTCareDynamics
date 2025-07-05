@@ -67,7 +67,7 @@
         /* Hero Section */
         .hero {
             background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), 
-                        url('https://github.com/cyg-IT/BNTCareDynamics/blob/main/istockphoto-1716780142-1024x1024.jpg');
+                        url('https://raw.githubusercontent.com/cyg-IT/BNTCareDynamics/main/istockphoto-1716780142-1024x1024.jpg');
             background-size: cover;
             background-position: center;
             color: white;
@@ -151,8 +151,7 @@
         .service-icon {
             width: 80px;
             height: 80px;
-            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), 
-            url('https://raw.githubusercontent.com/cyg-IT/BNTCareDynamics/main/istockphoto-1716780142-1024x1024.jpg');
+            background: linear-gradient(45deg, #3498db, #2980b9);
             border-radius: 50%;
             margin: 0 auto 1.5rem;
             display: flex;
@@ -462,25 +461,24 @@
                     <label for="facilityType">Facility Type</label>
                     <select id="facilityType" name="facilityType" style="width: 100%; padding: 12px; border: 2px solid #e9ecef; border-radius: 8px; font-size: 1rem;">
                         <option value="">Select facility type</option>
-                        <option value="hospital">Hospital</option>
+                        <option value="home-health">Home Health Agency</option>
+                        <option value="senior-living">Senior Living Community</option>
                         <option value="rehab-center">Rehabilitation Center</option>
                         <option value="skilled-nursing">Skilled Nursing Facility</option>
                         <option value="outpatient">Outpatient Clinic</option>
-                        <option value="home-health">Home Health Agency</option>
                         <option value="long-term-care">Long-term Care Facility</option>
+                        <option value="assisted-living">Assisted Living Facility</option>
                         <option value="other">Other</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="facilityType">Facility Type</label>
-                    <select id="facilityType" name="facilityType" style="width: 100%; padding: 12px; border: 2px solid #e9ecef; border-radius: 8px; font-size: 1rem;">
-                        <option value="">Select facility type</option>
-                        <option value="home-health">Home Health (In-Home Care)</option>
-                        <option value="senior-living">Senior Living Community</option>
-                        <option value="rehab-center">Adult Day Care</option>
-                        <option value="long-term-care">Nursing Home</option>
-                        <option value="assisted-living">Assisted Living Facility</option>
-                        <option value="other">Other</option>
+                    <label for="staffingNeeds">Staffing Needs</label>
+                    <select id="staffingNeeds" name="staffingNeeds" style="width: 100%; padding: 12px; border: 2px solid #e9ecef; border-radius: 8px; font-size: 1rem;">
+                        <option value="">Select staffing type</option>
+                        <option value="temporary">Temporary Coverage</option>
+                        <option value="contract">Contract Staffing</option>
+                        <option value="permanent">Permanent Placement</option>
+                        <option value="multiple">Multiple Options</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -531,8 +529,8 @@
                 <div class="footer-section">
                     <h3>Contact Info</h3>
                     <p>📧 info@bntcaredynamics.com</p>
-                    <p>📞 (123) 456-7890</p>
-                    <p>📍 Serving SWFL, Lee, Collier and Charlotte County, Florida</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>📍 Your City, State</p>
                 </div>
             </div>
             <div class="footer-bottom">
