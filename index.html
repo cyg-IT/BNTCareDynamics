@@ -381,36 +381,36 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Empowering Healthcare Excellence</h1>
-                <p>Providing compassionate, professional home healthcare services with Physical Therapists, Physical Therapy Assistants, Occupational Therapists, and Occupational Therapy Assistants dedicated to your recovery and well-being.</p>
-                <a href="#contact" class="cta-button">Get Started Today</a>
+                <h1>Your Trusted Healthcare Staffing Partner</h1>
+                <p>Connecting healthcare facilities with qualified Physical Therapists, PTAs, Occupational Therapists, and OTAs to ensure your patients receive exceptional care when you need it most.</p>
+                <a href="#contact" class="cta-button">Partner With Us</a>
             </div>
         </div>
     </section>
 
     <section id="services" class="services">
         <div class="container">
-            <h2>Our Healthcare Services</h2>
+            <h2>Healthcare Staffing Solutions</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🏥</div>
-                    <h3>Physical Therapist</h3>
-                    <p>Licensed physical therapists providing comprehensive rehabilitation services to help restore movement, reduce pain, and improve quality of life in the comfort of your home.</p>
+                    <h3>Physical Therapists (PT)</h3>
+                    <p>Licensed, experienced physical therapists ready to provide comprehensive rehabilitation services for your patients. Available for temporary, contract, or permanent placement.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">👨‍⚕️</div>
-                    <h3>Physical Therapist Assistant (PTA)</h3>
-                    <p>Skilled PTAs working under the supervision of licensed physical therapists to deliver personalized treatment plans and exercise programs.</p>
+                    <h3>Physical Therapist Assistants (PTA)</h3>
+                    <p>Skilled PTAs who work seamlessly with your existing therapy teams to deliver quality patient care and support your facility's treatment goals.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🤲</div>
-                    <h3>Occupational Therapist</h3>
-                    <p>Expert occupational therapists helping patients regain independence in daily activities and improve functional abilities through specialized interventions.</p>
+                    <h3>Occupational Therapists (OT)</h3>
+                    <p>Certified occupational therapists specializing in helping patients regain independence. Perfect for hospitals, rehab centers, and long-term care facilities.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🛠️</div>
-                    <h3>Occupational Therapist Assistant (OTA)</h3>
-                    <p>Certified OTAs providing hands-on support and implementing treatment plans to help patients achieve their occupational therapy goals.</p>
+                    <h3>Occupational Therapist Assistants (OTA)</h3>
+                    <p>Qualified OTAs ready to support your occupational therapy programs and help maintain consistent, high-quality patient care at your facility.</p>
                 </div>
             </div>
         </div>
@@ -421,9 +421,9 @@
             <div class="about-content">
                 <div class="about-text">
                     <h2>About BNT Care Dynamics</h2>
-                    <p>At BNT Care Dynamics, we are committed to empowering healthcare excellence through compassionate, professional home healthcare services. Our team of licensed healthcare professionals brings years of experience and dedication to every patient interaction.</p>
-                    <p>We understand that recovery and rehabilitation are deeply personal journeys. That's why we provide personalized care plans tailored to each patient's unique needs, delivered in the comfort and familiarity of their own home.</p>
-                    <p>Our mission is to help patients achieve their highest level of independence and quality of life while providing peace of mind to families and caregivers.</p>
+                    <p>BNT Care Dynamics is a premier healthcare staffing company specializing in connecting qualified rehabilitation professionals with healthcare facilities that need exceptional care providers. We understand the critical importance of having skilled therapists when your patients need them most.</p>
+                    <p>Our extensive network of licensed Physical Therapists, PTAs, Occupational Therapists, and OTAs are thoroughly vetted, credentialed, and ready to seamlessly integrate into your healthcare team. Whether you need temporary coverage, contract staffing, or permanent placement, we deliver the right professionals for your facility.</p>
+                    <p>Partner with us to ensure your patients receive uninterrupted, high-quality rehabilitation services while maintaining the standards of excellence your facility is known for.</p>
                 </div>
                 <div class="about-image">
                     <span>❤️</span>
@@ -434,41 +434,80 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact Us</h2>
-            <p class="contact-subtitle">Drop us a line!</p>
+            <h2>Partner With Us</h2>
+            <p class="contact-subtitle">Let's discuss your staffing needs!</p>
             <form class="contact-form" id="contactForm">
                 <div class="form-group">
-                    <label for="name">Name *</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="facilityName">Facility Name *</label>
+                    <input type="text" id="facilityName" name="facilityName" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactName">Contact Name *</label>
+                    <input type="text" id="contactName" name="contactName" required>
+                </div>
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" placeholder="e.g., HR Director, Rehab Manager">
                 </div>
                 <div class="form-group">
                     <label for="email">Email *</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
                 </div>
                 <div class="form-group">
-                    <label for="service">Service Needed</label>
-                    <select id="service" name="service" style="width: 100%; padding: 12px; border: 2px solid #e9ecef; border-radius: 8px; font-size: 1rem;">
-                        <option value="">Select a service</option>
-                        <option value="physical-therapy">Physical Therapy</option>
-                        <option value="pta-services">PTA Services</option>
-                        <option value="occupational-therapy">Occupational Therapy</option>
-                        <option value="ota-services">OTA Services</option>
-                        <option value="consultation">Consultation</option>
+                    <label for="facilityType">Facility Type</label>
+                    <select id="facilityType" name="facilityType" style="width: 100%; padding: 12px; border: 2px solid #e9ecef; border-radius: 8px; font-size: 1rem;">
+                        <option value="">Select facility type</option>
+                        <option value="hospital">Hospital</option>
+                        <option value="rehab-center">Rehabilitation Center</option>
+                        <option value="skilled-nursing">Skilled Nursing Facility</option>
+                        <option value="outpatient">Outpatient Clinic</option>
+                        <option value="home-health">Home Health Agency</option>
+                        <option value="long-term-care">Long-term Care Facility</option>
+                        <option value="other">Other</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="message">Message *</label>
-                    <textarea id="message" name="message" placeholder="Tell us about your needs..." required></textarea>
+                    <label for="facilityType">Facility Type</label>
+                    <select id="facilityType" name="facilityType" style="width: 100%; padding: 12px; border: 2px solid #e9ecef; border-radius: 8px; font-size: 1rem;">
+                        <option value="">Select facility type</option>
+                        <option value="home-health">Home Health Agency</option>
+                        <option value="senior-living">Senior Living Community</option>
+                        <option value="rehab-center">Rehabilitation Center</option>
+                        <option value="long-term-care">Long-term Care Facility</option>
+                        <option value="assisted-living">Assisted Living Facility</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="positions">Positions Needed</label>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 5px;">
+                        <label style="display: flex; align-items: center; gap: 5px; font-weight: normal;">
+                            <input type="checkbox" name="positions" value="PT"> Physical Therapist (PT)
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px; font-weight: normal;">
+                            <input type="checkbox" name="positions" value="PTA"> Physical Therapist Assistant (PTA)
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px; font-weight: normal;">
+                            <input type="checkbox" name="positions" value="OT"> Occupational Therapist (OT)
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 5px; font-weight: normal;">
+                            <input type="checkbox" name="positions" value="OTA"> Occupational Therapist Assistant (OTA)
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tell us about your needs *</label>
+                    <textarea id="message" name="message" placeholder="Number of positions, timeline, specific requirements, etc." required></textarea>
                 </div>
                 <div class="checkbox-group">
                     <input type="checkbox" id="newsletter" name="newsletter">
-                    <label for="newsletter">Sign up for our email list for updates and more.</label>
+                    <label for="newsletter">Send me updates about available healthcare professionals and staffing solutions.</label>
                 </div>
-                <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                <button type="submit" class="submit-btn">SUBMIT REQUEST</button>
             </form>
         </div>
     </section>
@@ -478,15 +517,15 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>BNT Care Dynamics</h3>
-                    <p>Empowering Healthcare Excellence</p>
-                    <p>Professional home healthcare services you can trust.</p>
+                    <p>Your Trusted Healthcare Staffing Partner</p>
+                    <p>Connecting facilities with qualified rehabilitation professionals.</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Services</h3>
-                    <p><a href="#services">Physical Therapy</a></p>
-                    <p><a href="#services">Physical Therapy Assistant Services</a></p>
-                    <p><a href="#services">Occupational Therapy</a></p>
-                    <p><a href="#services">Occupational Therapy Assistant Services</a></p>
+                    <h3>Staffing Solutions</h3>
+                    <p><a href="#services">Physical Therapists (PT)</a></p>
+                    <p><a href="#services">Physical Therapist Assistants (PTA)</a></p>
+                    <p><a href="#services">Occupational Therapists (OT)</a></p>
+                    <p><a href="#services">Occupational Therapist Assistants (OTA)</a></p>
                 </div>
                 <div class="footer-section">
                     <h3>Contact Info</h3>
